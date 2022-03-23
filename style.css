@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Poppins';
-    src: url(/fonts/Poppins-Regular.ttf) format("truetype");
+    src: url(../Estate/fonts/Poppins-Regular.ttf) format("truetype");
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -55,7 +55,7 @@ input::-webkit-input-placeholder{
 .main_section{
     width: 1440px;
     height: 711px;
-    background: url(../Estate/img/background.png) no-repeat center center / cover;
+    background: url("../Estate/img/background.png") no-repeat center center / cover;
 }
 .logo2{
     width: 128px;
@@ -202,7 +202,7 @@ input::-webkit-input-placeholder{
 .photo_section{
     width: 1440px;
     height: 600px;
-    background: url(../Estate/img/background2.png);
+    background: url("../Estate/img/background2.png");
 }
 .photo_block{
     width: 300px;
@@ -212,7 +212,7 @@ input::-webkit-input-placeholder{
     display: none;
 }
 .photo_section:hover{
-    background: url(../Estate/img/background2.2.png);
+    background: url("../Estate/img/background2.2.png");
 }
 .photo_section:hover .photo_block{
     display: block;
